@@ -1,7 +1,9 @@
 # XiaoZhi-OpenClaw
 将小智跟OpenClaw集成，这样小智就能跟OpenClaw连接一起
 
-<img src="image-20260202125738101.png" alt="image-20260202125738101" style="zoom:40%;" />
+<img src="img/image-20260302090718564.png" alt="image-20260202125738101" style="zoom:30%;" />
+
+<img src="img/image-20260202125738101.png" alt="image-20260202125738101" style="zoom:20%;" />
 
 # OpenClaw（欧克劳） + 小智 集成概述
 
@@ -163,3 +165,20 @@ OpenClaw 的回复主要通过 `agent` 事件下发，包含流式文本 (Delta)
 *   **原因**: 未处理 `connect.challenge` 就尝试发送数据。
 *   **解决**: 严格遵循协议状态机，必须先等待收到 server 的 challenge 并回复 connect 成功后，才标记 `is_handshake_done_` 允许业务通信。
 
+<img src="img/20260308122132_186_69.jpg" alt="20260308122132_186_69" style="zoom:20%;"/>
+
+<img src="img/20260308133243_177_21.jpg" alt="20260308122132_186_69" style="zoom:20%;"/>
+
+
+
+## 关于瞄小智固件
+
+见 miaoxiaozhi 目录
+
+没有对应硬件板子的，需要定制的进QQ群提需求。
+
+
+
+## 瞄小智交流QQ群
+
+## <img src="img/qrcode_miaoxiaozhi_qq.jpg" alt="qrcode_miaoxiaozhi_qq" style="zoom:20%;" />
